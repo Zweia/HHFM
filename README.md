@@ -1,27 +1,27 @@
 # High-performance hybrid flood model (HHFM)  
-HHFM模型是由中国华南理工大学土木与交通学院水文水资源黄国如教授团队开发。
+The HHFM model was developed by Prof. Guoru Huang's team of hydrology and water resources at the School of Civil Engineering and Transportation, South China University of Technology, China.  
 
-模型基于Godunov-type有限体积法和非结构网格离散方案求解浅水方程(SWE)和局部惯性方法(LInA)方程。该模型利用了NVIDIA统一计算设备架构Compute Unified Device Architecture (CUDA) 中图形处理器单元 (GPU) 的计算能力™,实现2D水动力模型的高速计算。同时，采用混合SWE与LInA求解方案，在保证精度的情况下,进一步提高计算效率。
+The model is based on the Godunov-type finite volume method and unstructured grid discretization scheme for solving the shallow water equation (SWE) and local inertia approach (LInA) equations. The model utilizes the computational power of the Graphics Processor Unit (GPU) in NVIDIA's Compute Unified Device Architecture (CUDA) to achieve high-speed computation of the 2D hydrodynamic model. At the same time, a hybrid SWE and LInA solution is used to further improve computational efficiency while maintaining accuracy.  
 
-模型具有令人满意的精度和稳定性，在复杂流态洪涝模拟中具有相当大的预测潜力。将GPU加速技术和混合求解模式应用于数值建模表现出强大的计算优势，在测试案例中可实现一到两个数量级的加速。
+The model has satisfactory accuracy and stability, which has considerable prediction potential in complex flow simulation of floods. The application of GPU acceleration techniques and hybrid solution approach to numerical modeling exhibits strong computational advantages, with one to two orders of magnitude speedups achieved in the test cases.  
 
-混合求解方法是一种实用精度-效率的权衡方案，可以在保证精度的情况下和GPU加速方法相互叠加，共同提高模型的求解效率。
-
-
-# 应用
-· 洪涝模拟。
-
-· 洪涝风险评估。
-
-· 洪涝预警与监测。
-
-· 防汛应急与日常管理。
-
-...
+The hybrid solution approach is a practical accuracy-efficiency trade-off that can be overlaid with the GPU acceleration approach to jointly improve the model-solving efficiency with guaranteed accuracy.
 
 
-# 开发人员
-Prof. Guoru Huang
+# Applications  
+* Flood simulation  
+
+* Flood risk assessment
+
+* Flood warning and monitoring  
+
+* Flood emergency response and daily management
+
+* ...
+
+
+# Developers  
+Prof. Guoru Huang  
 
 Prof. Wenjie Chen
 
@@ -32,22 +32,19 @@ Dr. Haijun Yu
 Dr. ZhiWei Chen.            
 
 
-# 模型可用性
-该模型目前仅由科学合作共享 (联系人: 202010101646@mail.scut.edu.cn)。
+# Model availability
+The model is currently only shared by the Scientific Collaboration (contact: 202010101646@mail.scut.edu.cn).
 
 
-# 主要参考文献
+# Main references
 [1] Chen, Zhiwei, and Guoru Huang. "Numerical simulation study on the effect of underground drainage pipe network in typical urban flood." Journal of Hydrology 638 (2024): 131481.  
 
 [2] Wang, Weiqi, Wenjie Chen, Guoru Huang, Jiahong Liu, Dawei Zhang, and Fan Wang. "A hybrid shallow water approach with unstructured triangular grids for urban flood modeling." Environmental Modelling & Software 166 (2023): 105748. 
 
-[3] Wang, Weiqi, Wenjie Chen, and Guoru Huang. "Urban stormwater modeling with local inertial approximation form of shallow water equations: A comparative study." International Journal of Disaster Risk Science 12 (2021): 745-763. 
+[3] Wang, Weiqi, Wenjie Chen, and Guoru Huang. "Urban stormwater modeling with local inertial approximation form of shallow water equations: A comparative study." International Journal of Disaster Risk Science 12 (2021): 745-763.   
 
 [4] Chen, Wenjie, Guoru Huang, Han Zhang, and Weiqi Wang. "Urban inundation response to rainstorm patterns with a coupled hydrodynamic model: A case study in Haidian Island, China." Journal of Hydrology 564 (2018): 1022-1035.  
 
 [5] Yu, Haijun, Guoru Huang, and Chuanhao Wu. "Efficient finite-volume model for shallow-water flows using an implicit dual time-stepping method." Journal of Hydraulic Engineering 141, no. 6 (2015): 04015004.   
 
 [6] Yu, Haijun, and Guoru Huang. "A coupled 1D and 2D hydrodynamic model for free-surface flows." In Proceedings of the Institution of Civil Engineers-Water Management, vol. 167, no. 9, pp. 523-531. Thomas Telford Ltd, 2014.   
-
-
-
