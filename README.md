@@ -29,7 +29,7 @@ Dr. Weiqi Wang
 
 Dr. Haijun Yu
 
-Dr. ZhiWei Chen.            
+Dr. ZhiWei Chen              
 
 
 # Model availability
@@ -41,7 +41,7 @@ The model is currently only shared by the Scientific Collaboration (contact: 202
 
 [2] Wang, Weiqi, Wenjie Chen, Guoru Huang, Jiahong Liu, Dawei Zhang, and Fan Wang. "A hybrid shallow water approach with unstructured triangular grids for urban flood modeling." Environmental Modelling & Software 166 (2023): 105748. 
 
-[3] Wang, Weiqi, Wenjie Chen, and Guoru Huang. "Urban stormwater modeling with local inertial approximation form of shallow water equations: A comparative study." International Journal of Disaster Risk Science 12 (2021): 745-763.   
+[3] Wang, Weiqi, Wenjie Chen, and Guoru Huang. "Urban stormwater modeling with local inertial approximation form of shallow water equations: A comparative study." International Journal of Disaster Risk Science 12 (2021): 745-763.    
 
 [4] Chen, Wenjie, Guoru Huang, Han Zhang, and Weiqi Wang. "Urban inundation response to rainstorm patterns with a coupled hydrodynamic model: A case study in Haidian Island, China." Journal of Hydrology 564 (2018): 1022-1035.  
 
